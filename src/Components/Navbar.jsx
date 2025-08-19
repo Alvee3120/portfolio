@@ -11,7 +11,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="\src\assets\mylogo.png"
+              src="./public/assets/mylogo.png"
               alt="Logo"
               className="h-10 w-auto"
             />

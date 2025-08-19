@@ -39,7 +39,7 @@ export default function HeroSection() {
           <div className="relative flex justify-center items-center">
          
             <img
-              src="\src\assets\HeroImage.png"
+              src="./public/assets/HeroImage.png"
               alt="profile"
               className="relative w-[650px] h-full object-cover rounded-lg z-10"
             />
