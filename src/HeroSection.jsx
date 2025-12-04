@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import StatusBar from './StatusBar';
 import SkillsTicker from './SkillsTicker';
 import ExperienceSection from './ExperienceSection';
+import heroimage from './media/portfolio.jpg';
 
 const HeroSection = () => {
   return (
@@ -44,7 +45,7 @@ const HeroSection = () => {
           {/* RIGHT IMAGE */}
           <div className="relative flex justify-center items-end h-auto">
             <img 
-              src="./src/media/portfolio.jpg"
+              src={heroimage}
               alt="Alvee Profile"
               className="relative z-10 h-full object-cover"
             />
