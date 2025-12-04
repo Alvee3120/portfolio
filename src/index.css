@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* src/index.css *
+
+/* Reset possible browser margins and ensure root fills */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
